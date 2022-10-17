@@ -55,6 +55,7 @@ setobj({title:"",ans:"",ans1:"",ans2:"",ans3:"",ans4:""})
   <div className="form-group">
     <label  htmlFor="exampleFormControlInput1">الإجابة الصحيحة</label>
     <select name="" id="" onChange={onans} required>
+      <option value={null} selected>اختار الاجابة الصحيحة</option>
      <option value={obj.ans1}>{obj.ans1}</option>
      <option value={obj.ans2}>{obj.ans2}</option>
      <option value={obj.ans3}>{obj.ans3}</option>
@@ -62,6 +63,7 @@ setobj({title:"",ans:"",ans1:"",ans2:"",ans3:"",ans4:""})
      </select>
   </div>
  <select name="" id="" onChange={onrang} required>
+    <option value={null} selected>اختار المستوى</option>
      <option value="1">سهل</option>
      <option value="2">متوسط</option>
      <option value="3">صعب</option>
